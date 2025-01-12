@@ -47,8 +47,9 @@ function usePokemonData() {
     const languageSelected = parseInt(localStorage.getItem('LANGUAGE')) === 1 ? 'en' : 'es';
     
     useEffect(() => {
-        const ID_POKEMON = Math.floor(Math.random() * (1008 - 1) + 1);;
-        //const ID_POKEMON = 1008;
+        //const ID_POKEMON = Math.floor(Math.random() * (1008 - 1) + 1);;
+        //const ID_POKEMON = Math.floor(Math.random() * (1008 - 1) + 1);;
+        const ID_POKEMON = 39;
         //const ID_POKEMON = 386;
         //const ID_POKEMON = 6;
         //const ID_POKEMON = 955;
